@@ -1,5 +1,3 @@
 ﻿using DesafioFundamentos.Util;
 
-var dados = Menu.InfosInput();
-
-Menu.MenuOptions(dados);
+Menu.MenuOptions(Menu.InfosInput());
