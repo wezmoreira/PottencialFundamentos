@@ -5,10 +5,12 @@ namespace DesafioFundamentos.Util
     public static class Menu
     {
         
-    public static void MenuOptions(Estacionamento es){
-    
+    public static void MenuOptions(){
+    // Estacionamento es
     string opcao = string.Empty;
     bool exibirMenu = true;
+
+    var es = InfosInput();
 
     while (exibirMenu)
     {
