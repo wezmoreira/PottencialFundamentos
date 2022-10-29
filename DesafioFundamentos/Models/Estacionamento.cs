@@ -54,8 +54,8 @@ namespace DesafioFundamentos.Models
 
                 foreach(var cars in veiculos){
                     System.Console.WriteLine("---------------------------------");
-                    System.Console.WriteLine($"Veiculo: {cars} estacionado \n");
-                    System.Console.WriteLine("---------------------------------");
+                    System.Console.WriteLine($"Veiculo: {cars} estacionado ");
+                    System.Console.WriteLine("--------------------------------- \n");
                 }
             }
             else

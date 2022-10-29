@@ -1,7 +1,4 @@
-﻿using DesafioFundamentos.Models;
-using DesafioFundamentos.Util;
-
-Estacionamento es = new Estacionamento();
+﻿using DesafioFundamentos.Util;
 
 var dados = Menu.InfosInput();
 
